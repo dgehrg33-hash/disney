@@ -1,0 +1,349 @@
+/* ==========================================================================
+   Disney Global Navigation Header (GOC) Styles
+   ========================================================================== */
+
+.goc-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--disney-bg-white);
+  border-bottom: 1px solid var(--disney-border-light);
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.goc-main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding: 0 24px;
+  max-width: var(--site-max-width);
+  margin: 0 auto;
+}
+
+/* Disney Logo */
+.goc-logo-link {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px 4px 0;
+  flex-shrink: 0;
+}
+
+.goc-logo-img {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
+}
+
+.goc-logo-link:hover .goc-logo-img {
+  transform: scale(1.03);
+}
+
+/* Desktop Navigation List */
+.goc-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  height: 100%;
+  margin-left: 20px;
+}
+
+@media (max-width: 1080px) {
+  .goc-nav-links {
+    gap: 16px;
+    margin-left: 12px;
+  }
+}
+
+.goc-nav-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.goc-nav-anchor {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.825rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--disney-text-dark);
+  text-transform: uppercase;
+  padding: 8px 4px;
+  position: relative;
+  transition: color var(--transition-fast);
+}
+
+.goc-nav-anchor::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: var(--disney-blue);
+  transition: width var(--transition-smooth);
+  border-radius: 2px 2px 0 0;
+}
+
+.goc-nav-item:hover .goc-nav-anchor {
+  color: var(--disney-blue);
+}
+
+.goc-nav-item:hover .goc-nav-anchor::after {
+  width: 100%;
+}
+
+/* Dropdown Menu */
+.goc-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 230px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 0 0 6px 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: all var(--transition-smooth);
+  padding: 10px 0;
+  z-index: 1001;
+}
+
+.goc-nav-item:hover .goc-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.goc-dropdown-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.goc-dropdown-item:hover {
+  background-color: #f5f6f8;
+  color: var(--disney-blue);
+}
+
+.goc-dropdown-badge {
+  background-color: var(--disney-gold);
+  color: #000;
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Right Navigation Controls */
+.goc-right-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.goc-search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: #222;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.goc-search-btn:hover {
+  background-color: #f1f2f3;
+  color: var(--disney-blue);
+}
+
+.goc-login-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.825rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #222;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.goc-login-btn u {
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+.goc-login-btn:hover {
+  color: var(--disney-blue);
+}
+
+/* Hamburger toggle for Mobile/Tablet */
+.goc-mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 8px;
+  color: #222;
+  cursor: pointer;
+}
+
+/* Property Sub-Navigation (Desktop & Mobile) */
+.property-nav-bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px 0;
+  display: none;
+}
+
+.property-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 16px;
+}
+
+.property-nav-item a {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #4b5563;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: all var(--transition-fast);
+}
+
+.property-nav-item a:hover {
+  background-color: #f3f4f6;
+  color: var(--disney-blue);
+}
+
+/* Mobile responsive navigation behavior */
+@media (max-width: 960px) {
+  .goc-nav-links {
+    display: none;
+  }
+  .goc-mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .property-nav-bar {
+    display: block;
+  }
+}
+
+/* Mobile Slide-Out Drawer */
+.mobile-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition-smooth), visibility var(--transition-smooth);
+}
+
+.mobile-drawer-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 320px;
+  max-width: 85vw;
+  background-color: #ffffff;
+  z-index: 2001;
+  transform: translateX(-100%);
+  transition: transform var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.mobile-drawer.open {
+  transform: translateX(0);
+}
+
+.mobile-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.mobile-drawer-close {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  color: #374151;
+}
+
+.mobile-drawer-nav {
+  padding: 16px 0;
+  flex: 1;
+}
+
+.mobile-nav-group {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.mobile-nav-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #111827;
+  width: 100%;
+  text-align: left;
+}
+
+.mobile-nav-subitems {
+  background-color: #f9fafb;
+  padding: 6px 0;
+}
+
+.mobile-nav-subitem {
+  display: block;
+  padding: 10px 28px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.mobile-nav-subitem:hover {
+  color: var(--disney-blue);
+  background-color: #f3f4f6;
+}
+
+.mobile-drawer-footer {
+  padding: 20px;
+  border-top: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+}

@@ -1,0 +1,446 @@
+[
+  {
+    "index": 0,
+    "id": "ref-0-1",
+    "className": "module background_styles transparent primary-theme light bun",
+    "heading": null,
+    "columns": null,
+    "bgColor": null,
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 1,
+    "id": "ref-1-0",
+    "className": "module property_nav_mobile property_nav skip-styles skip-bottom-border skip-top-border primary-theme light",
+    "heading": null,
+    "columns": null,
+    "bgColor": null,
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 2,
+    "id": "ref-1-1",
+    "className": "module rich_image_abandon_cart full-width full-height skip-bottom-border skip-top-border preserve-padding hidden header-left span-full-screen content-span-full-screen primary-theme light",
+    "heading": null,
+    "columns": null,
+    "bgColor": null,
+    "isHero": true,
+    "heroDetails": {
+      "bg": null,
+      "logo": null,
+      "title": null,
+      "desc": null,
+      "buttons": []
+    },
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 3,
+    "id": "ref-1-4",
+    "className": "module rich_image full-width full-height skip-bottom-border skip-top-border preserve-padding no-top-padding no-bottom-padding no-left-padding no-right-padding header-left span-full-screen content-span-full-screen primary-theme light",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#F1F2F3",
+    "isHero": true,
+    "heroDetails": {
+      "bg": null,
+      "logo": null,
+      "title": null,
+      "desc": null,
+      "buttons": []
+    },
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 4,
+    "id": "ref-1-5",
+    "className": "module rich_text rich-text-view tight-top-padding no-bottom-padding header-left preserve-padding span-full-screen content-span-full-screen primary-theme light cols-1",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#f1f2f3",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 5,
+    "id": "ref-1-6",
+    "className": "module flex_content_hero flex-content-hero-view full-height full-width skip-bottom-border skip-top-border no-top-padding no-bottom-padding no-left-padding no-right-padding preserve-padding span-full-screen content-span-full-screen primary-theme light",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#F1F2F3",
+    "isHero": true,
+    "heroDetails": {
+      "bg": "https://lumiere-a.akamaihd.net/v1/images/hb_disneymovies_hexed_get_tickets_v2_desktop_e0749500.jpeg?region=0,0,2048,878&width=1536",
+      "logo": "https://lumiere-a.akamaihd.net/v1/images/logo_hexed_color-800_e2ae915c.png?region=0,0,800,412",
+      "title": "Hexed",
+      "desc": "Things are getting witchy! Get your tickets now for Disney's",
+      "buttons": [
+        {
+          "href": "https://www.fandango.com/DisneysHexed",
+          "text": "Get Tickets"
+        },
+        {
+          "href": "https://movies.disney.com/hexed",
+          "text": "Learn More"
+        }
+      ]
+    },
+    "cardsCount": 1,
+    "cards": [
+      {
+        "dataTitle": "Hero - Hexed - Pre-Premiere Get Tickets",
+        "title": "Hexed",
+        "desc": "Things are getting witchy! Get your tickets now for Disney's Hexed, exclusively in theaters November 25.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/hb_disneymovies_hexed_get_tickets_v2_desktop_e0749500.jpeg?region=0,0,2048,878&width=1536",
+        "href": "https://www.fandango.com/DisneysHexed",
+        "aspect": null
+      }
+    ]
+  },
+  {
+    "index": 6,
+    "id": "ref-1-7",
+    "className": "module flex_grid_card flex-grid-view skip-bottom-border skip-top-border item-titles-below equal large-left content-spaced header-left span-full-screen content-span-full-screen primary-theme light",
+    "heading": null,
+    "columns": 4,
+    "bgColor": "#F1F2F3",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 4,
+    "cards": [
+      {
+        "dataTitle": "CG Hero Stream - Disney+ - Percy Jackson and the Olympians Season 3 Now Available",
+        "title": "Percy Jackson and the Olympians",
+        "desc": "The first 2 episodes of season 3 are now available on Disney+!",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_sq_disneyplushulu_percy_jackson_and_the_olympians_s3_1276a505.jpeg?region=0,0,800,800",
+        "href": "https://www.disneyplus.com/browse/entity-f1c31566-ec05-4d30-b23f-3177442233f4?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Originals-US-Disney-PercyJacksonandtheOlympians-EN-PromoModule-NA-NA",
+        "aspect": "100%"
+      },
+      {
+        "dataTitle": "CG Hero Stream - Disney+ - Moana (Live-Action) Now Available",
+        "title": "Moana",
+        "desc": "The ocean is calling. Join Moana, Maui, Heihei, and Pua on an unforgettable adventure, now streaming on Disney+!",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_sq_disneymovies_moana_live_actionn_disneyplus_deskto_3487f9aa.jpeg?region=0,0,800,800",
+        "href": "https://www.disneyplus.com/browse/entity-46bee9e1-869a-4a04-a145-de2c28552866?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Library-US-Disney-MoanaLiveAction-EN-PromoModule-NA-NA",
+        "aspect": "100%"
+      },
+      {
+        "dataTitle": "CG Hero Stream - Disney Store - Top Toys 11/20 - 11/26",
+        "title": "Disney Store",
+        "desc": "Your destination for the season's most-wished-for toys.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_disneystore_toptoys_sq_desktop_3140f8a0.jpeg?region=0,0,800,800",
+        "href": "https://www.disneystore.com/toys-plush/top-toys/?cmp=OTL-Dcom&att=DcomM_CG_top_toys_261120",
+        "aspect": "100%"
+      },
+      {
+        "dataTitle": "CG Hero Stream - Parks - WDW - FY27 Q2 Package Offer",
+        "title": "Walt Disney World® Resort",
+        "desc": "Save up to $250 per night on select 4-night, 4-day room-and-ticket packages with the Disney Resorts Collection.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_disney_parks_fy27_q2_package_offer_sq_desktop_89d83262.jpeg?region=0,0,800,800",
+        "href": "https://disneyworld.disney.go.com/special-offers/spring-2027-package-offer/?CMP=AFC-DPFY26Q1DIENT0092&DISCID=DI_HP_promo",
+        "aspect": "100%"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "id": "ref-1-9",
+    "className": "module flex_grid_card flex-grid-view skip-bottom-border skip-top-border item-titles-below tight-top-padding equal large-left content-spaced header-center preserve-padding span-full-screen content-span-full-screen primary-theme light",
+    "heading": "",
+    "columns": 4,
+    "bgColor": "#09233c",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 4,
+    "cards": [
+      {
+        "dataTitle": "CG Square - Make the Holidays Magic 2027 - Holiday Brand Spot",
+        "title": "A Disney Holiday Short: The Invisible Horse",
+        "desc": "Just when Jack begins to think he’s too old for Christmas, he ends up befriending an invisible creature that reminds him of what makes Christmas so magical.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_maketheholidaysmagic2027_theinvisiblehorse_desktop_55dea27c.jpeg?region=0,0,800,800",
+        "href": "https://youtu.be/9TJXo63g6JA",
+        "aspect": "100%"
+      },
+      {
+        "dataTitle": "CG Square - Make the Holidays Magic 2027 - Disney Holiday Magic Site",
+        "title": "Disney Holiday Magic",
+        "desc": "Join us and help make the holidays magic for kids and families when it’s needed most.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_csr_maketheholidaysmagic_holidaymagic_sq_desktop_4dd8ed2d.jpeg?region=0,0,800,800",
+        "href": "/holidaymagic",
+        "aspect": "100%"
+      },
+      {
+        "dataTitle": "CG Square - Make the Holidays Magic 2027 - The Holiday Magic Shop",
+        "title": "The Holiday Magic Shop",
+        "desc": "Find the ultimate holiday gift guide at Disney Store, with officially licensed gifts, decor, clothing, and toys across every category.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_maketheholidaysmagic2027_theholidaymagicshop_desktop_234906ba.jpeg?region=0,0,800,800",
+        "href": "https://www.disneystore.com/holiday-shop/?cmp=OTL-Dcom&att=DcomM_CG_MTHM_261109",
+        "aspect": "100%"
+      },
+      {
+        "dataTitle": "CG Square - Make the Holidays Magic 2027 - Disney+ Hulu Holidays",
+        "title": "Disney+ Hulu Holidays",
+        "desc": "Celebrate the holidays with your favorite characters and stories. Because the more, the merrier.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_maketheholidaysmagic2027_collectionart_desktop_efe27de0.jpeg?region=0,0,800,800",
+        "href": "https://www.disneyplus.com/browse/page-37c12831-e6ec-4d8f-95cb-c96052a40d8e?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Library-US-DisneyPlus-DisneyPlusHuluHolidays-EN-PromoModule-NA-NA",
+        "aspect": "100%"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "id": "ref-1-10",
+    "className": "module rich_text rich-text-view tight-top-padding no-bottom-padding header-left skip-top-border skip-bottom-border no-border preserve-padding span-full-screen content-span-full-screen primary-theme light cols-1",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#f1f2f3",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 9,
+    "id": "ref-1-13",
+    "className": "module flex_grid_card flex-grid-view skip-bottom-border skip-top-border item-titles-below no-bottom-padding equal large-left content-spaced header-center preserve-padding span-full-screen content-span-full-screen secondary-theme dark",
+    "heading": "Explore More Disney+",
+    "columns": 3,
+    "bgColor": "#054553",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 3,
+    "cards": [
+      {
+        "dataTitle": "CG Horizontal - Disney+ - Toy Story 5 - Now Available",
+        "title": "CG Horizontal - Disney+ - Toy Story 5 - Now Available",
+        "desc": "Playtime starts now! Toy Story 5 is now streaming on Disney+!",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_movies_toystory5_nowstreamingdisneyplus_hz_desktop_v_0687fbf2.jpeg?region=0,0,1460,824",
+        "href": "https://www.disneyplus.com/browse/entity-c99203fc-eeff-4531-a35e-1f558bedce4f?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Library-US-Disney-ToyStory5-EN-FeaturedModule-Hoppers_Now_Available_on_DisneyPlus-NA",
+        "aspect": "56.44%"
+      },
+      {
+        "dataTitle": "CG Horizontal - Disney+ - A Proud Family Wizmas Available Now",
+        "title": "CG Horizontal - Disney+ - A Proud Family Wizmas Available Now",
+        "desc": "It's beginning to look a LOT like Wizmas y'all! Watch the all-new special A Proud Family Wizmas, now available on Disney+.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_a_proud_family_wizmas_t_horizontal_desktop_0fed250d.jpeg?region=0,0,1460,824",
+        "href": "https://www.disneyplus.com/browse/entity-1d0e7ad6-8bcc-44e8-baea-0b219092db56?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Originals-US-Disney-AProudFamilyWizmas-EN-FeaturedModule-NA-NA",
+        "aspect": "56.44%"
+      },
+      {
+        "dataTitle": "CG Horizontal - Disney+ - Avengers: Endgame Encore - Now Streaming",
+        "title": "CG Horizontal - Disney+ - Avengers: Endgame Encore - Now Streaming",
+        "desc": "Stream Avengers: Endgame Encore now, only on Disney+.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_movies_avengersendgameencore_hz_desktop_1a78d470.jpeg?region=0,0,1460,824",
+        "href": "https://www.disneyplus.com/browse/entity-28e07482-7213-4ce6-94ca-bd195963ca81?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Originals-US-Marvel-AvengersEndgameEncore-EN-FeaturedModule-NA-NA",
+        "aspect": "56.44%"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "id": "ref-1-14",
+    "className": "module flex_grid_card flex-grid-view skip-bottom-border skip-top-border item-titles-below no-bottom-padding equal large-left content-spaced header-center preserve-padding span-full-screen content-span-full-screen primary-theme light",
+    "heading": "Vacation with Disney Parks",
+    "columns": 3,
+    "bgColor": "#F1F2F3",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 3,
+    "cards": [
+      {
+        "dataTitle": "CG Horizontal - Parks - WDW - FY27 Q2 Broad Room Offer",
+        "title": "Walt Disney World® Resort",
+        "desc": "Spring into the new year and save up to 25% on select rooms with the Disney Resorts Collection. For stays select nights 1/3-4/29/27. ​ &nbsp;",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_disneyparks_wdw_q2boardroomoffer_hz_desktop_46084f59.jpeg?region=0,0,1460,824",
+        "href": "https://disneyworld.disney.go.com/special-offers/spring-2027-room-offer/?CMP=AFC-DPFY26Q1DIENT0122&DISCID=DI_HP_cardgrid_h",
+        "aspect": "56.44%"
+      },
+      {
+        "dataTitle": "CG Horizontal - Parks - DLR - FY27 Q2 Winter Hotel Offer",
+        "title": "Disneyland® Resort",
+        "desc": "Save up to 20% on Sunday–Thursday night stays from 1/4/2027 to 2/25/2027 at a Disneyland® Resort hotel. Subject to availability and restrictions.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_parks_dlr_horizontal_tq2_winter_hotel_offer_content_523f08cf.jpeg?region=0,0,1460,824",
+        "href": "https://disneyland.disney.go.com/en-ca/offers-discounts/winter-2027-room-offer/?CMP=AFC-DPFY27Q1DIENT0014",
+        "aspect": "56.44%"
+      },
+      {
+        "dataTitle": "CG Horizontal - Parks - DCL - FY26 GTY Offer (September)",
+        "title": "Disney Cruise Line",
+        "desc": "Save up to 25% on voyage fare on select sailings.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_parks_dcl_gtyofferseptember_hz_desktop_155b5ec0.jpeg?region=0,0,1460,824",
+        "href": "https://disneycruise.disney.go.com/special-offers/domestic-special-rates/?CMP=AFC-DPFY26Q1DIENT0100&DISCID=DI_HP_promo",
+        "aspect": "56.44%"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "id": "ref-1-15",
+    "className": "module flex_grid_card flex-grid-view skip-bottom-border skip-top-border item-titles-below no-bottom-padding equal large-left content-spaced header-center preserve-padding span-full-screen content-span-full-screen primary-theme light",
+    "heading": "Disney Partners",
+    "columns": 2,
+    "bgColor": "#F1F2F3",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 2,
+    "cards": [
+      {
+        "dataTitle": "CG Horizontal - DCP - Fortnite Partnership - DisneyxFortnite",
+        "title": "Link Your Accounts",
+        "desc": "Connect your eligible MyDisney and Epic Games accounts to unlock special rewards in Fortnite.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_dcp_fortnitexdisney_hz_desktop_crop_b4ef4da3.jpeg?region=0,0,1460,600",
+        "href": "/exit-interstitial/_YztQii1wRuQanXxuf1VxUCCIKnjpAydoFLihBkmwWKWtXi4ICnxqoBfLoFJcQ2EKLaRROT2CadjyAM?",
+        "aspect": "41.1%"
+      },
+      {
+        "dataTitle": "CG Horizontal - DCP - F1 Partnership: Formula 1 x Disney: Fuel the Magic",
+        "title": "Disney x Formula 1®: Fuel the Magic",
+        "desc": "Mickey &amp; Friends meet the world of Formula&nbsp;1® in a global collaboration celebrating speed, storytelling, and fans.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/cg_disney_disneyxf1_fuelthemagic_hz_desktop_crop_3f18b4a0.jpeg?region=0,0,1460,600",
+        "href": "/exit-interstitial/flaAABvOXUZvsVcIjH6kP_XU7vVkZsVdfb_DKl_98AXUa6FGxI4vAJBeQ0YklRGPbGsdq0Ao2qh9436KH1CuFIj2piaTdT2X0bVnUwvDazdn1D5gydY7CwyR9ypNZPhIKzYGrw_LwLxtjUwta5yCp0ZQKJaoeFQdS7TendoCUD1dj8k-MoAe0A?",
+        "aspect": "41.1%"
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "id": "ref-1-16",
+    "className": "module flex_content_hero flex-content-hero-view full-height full-width skip-bottom-border skip-top-border default-top-padding no-bottom-padding no-left-padding no-right-padding preserve-padding span-full-screen content-span-full-screen primary-theme light",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#F1F2F3",
+    "isHero": true,
+    "heroDetails": {
+      "bg": "https://lumiere-a.akamaihd.net/v1/images/hb_disney_disneybundle_slimbanner_desktop_2025_0ba233e2.jpeg?region=0,0,2048,600&width=1536",
+      "logo": "https://lumiere-a.akamaihd.net/v1/images/hb_disney_disneybundle_slimbanner_logo_mobile_31324374.png?region=0,0,450,177",
+      "title": "The Disney Bundle",
+      "desc": "Stream your favorite stories, Originals, and more from Disney+ and Hulu with bundle plans starting at $11.99/mo.",
+      "buttons": [
+        {
+          "href": "https://www.disneyplus.com/welcome/disney-hulu-espn-bundle?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Bundle-US-DisneyPlus-NA-EN-HomeScreenBanner-Disneycom_HomeScreenBanner_GetTheDisneyBundle_StreamtheBest-NA",
+          "text": "GET THEM BOTH"
+        }
+      ]
+    },
+    "cardsCount": 1,
+    "cards": [
+      {
+        "dataTitle": "Hero (Slim Banner) - Disney+ - 2026 Bundle",
+        "title": "The Disney Bundle",
+        "desc": "Stream your favorite stories, Originals, and more from Disney+ and Hulu with bundle plans starting at $11.99/mo.Terms apply**",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/hb_disney_disneybundle_slimbanner_desktop_2025_0ba233e2.jpeg?region=0,0,2048,600&width=1536",
+        "href": "https://www.disneyplus.com/welcome/disney-hulu-espn-bundle?cid=DTCI-Synergy-Disneycom-Site-Acquisition-Bundle-US-DisneyPlus-NA-EN-HomeScreenBanner-Disneycom_HomeScreenBanner_GetTheDisneyBundle_StreamtheBest-NA",
+        "aspect": null
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "id": "ref-1-17",
+    "className": "module rich_text rich-text-view tight-top-padding tight-bottom-padding no-left-padding no-right-padding header-left skip-top-border skip-bottom-border preserve-padding span-full-screen content-span-full-screen primary-theme light hidden_in_mobile cols-1",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#F1F2F3",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 14,
+    "id": "ref-1-18",
+    "className": "module rich_text rich-text-view tight-top-padding tight-bottom-padding header-left skip-top-border skip-bottom-border preserve-padding span-full-screen content-span-full-screen primary-theme light hidden_in_desktop cols-1",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#F1F2F3",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 15,
+    "id": "ref-1-19",
+    "className": "module flex_content_hero flex-content-hero-view full-height full-width skip-bottom-border skip-top-border no-top-padding no-bottom-padding no-left-padding no-right-padding preserve-padding span-full-screen content-span-full-screen primary-theme light",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#1a4e99\"><div class=\"aspect\" style=\"--fch-pb-desktop:36.62%",
+    "isHero": true,
+    "heroDetails": {
+      "bg": "https://lumiere-a.akamaihd.net/v1/images/b_disney_visarewardsbanner_fall2026_desktop_5dc203ef.jpeg?region=0,0,2048,750&width=1536",
+      "logo": null,
+      "title": "EXCLUSIVE",
+      "desc": "$500 OFFER",
+      "buttons": [
+        {
+          "href": "https://disneyrewards.com/disney-inspire-credit-card-p/?cellcode=62GC19&amp;cmp=disney_site&amp;dt=20260203&amp;med=di&amp;pub=di_das&amp;type=banner&amp;crt=banner&amp;plc=desktop_mobile&amp;prd=nw",
+          "text": "LEARN MORE"
+        }
+      ]
+    },
+    "cardsCount": 1,
+    "cards": [
+      {
+        "dataTitle": "Hero - Visa Banner Fall 2026 Offer",
+        "title": "EXCLUSIVE\nFOR NEW DISNEY® INSPIRE VISA® CARDMEMBERS",
+        "desc": "$500 OFFERAfter spending $1,000 on purchases in the first 3 months of account opening.",
+        "cta": null,
+        "image": "https://lumiere-a.akamaihd.net/v1/images/b_disney_visarewardsbanner_fall2026_desktop_5dc203ef.jpeg?region=0,0,2048,750&width=1536",
+        "href": "https://disneyrewards.com/disney-inspire-credit-card-p/?cellcode=62GC19&cmp=disney_site&dt=20260203&med=di&pub=di_das&type=banner&crt=banner&plc=desktop_mobile&prd=nw",
+        "aspect": null
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "id": "ref-1-20",
+    "className": "module rich_text rich-text-view no-top-padding no-bottom-padding header-center no-border preserve-padding content-span-full-screen secondary-theme dark hidden_in_desktop cols-1",
+    "heading": null,
+    "columns": null,
+    "bgColor": "#1a4e99",
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  },
+  {
+    "index": 17,
+    "id": "goc-ft-help",
+    "className": "",
+    "heading": null,
+    "columns": null,
+    "bgColor": null,
+    "isHero": false,
+    "heroDetails": null,
+    "cardsCount": 0,
+    "cards": []
+  }
+]
